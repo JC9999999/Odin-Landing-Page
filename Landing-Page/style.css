@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+    font-family: Roboto, "sans-serif";
+    display: flex;
+    flex-direction: column;
+    
+}
+.header{
+    outline: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+.right{
+    display: flex;
+    gap: 32px;
+}
