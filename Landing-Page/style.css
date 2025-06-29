@@ -9,6 +9,7 @@ body{
     outline: 2px solid red;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 30px;
     background-color: #1F2937;
     color: #E5E7EB;
@@ -16,4 +17,13 @@ body{
 .right{
     display: flex;
     gap: 32px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.left{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+li{
+    list-style: none;
 }
