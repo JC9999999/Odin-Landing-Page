@@ -37,7 +37,7 @@ li{
 }
 .sign-up{
     display: block;
-    margin-top: 10px;
+    width: 8%;
 }
 .hero-text{
     font-size: 48px;
@@ -53,10 +53,19 @@ li{
     color: #F9FAF8;
 }
 img{
-    width: 50%;
-    display: flexbox;
+    width: 300px;
+    height: auto;
+}
+.image{
+    float: right;
+    padding-right: 100px;
+    margin-top: 75px;
 }
 .hero-container{
     display: flexbox;
+}
+p{
+    display: flex;
+    flex-direction: column;
 }
 
