@@ -68,7 +68,21 @@ p{
     display: flex;
     flex-direction: column;
 }
-.wrapper{
+.middle-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    gap: 32px;
+}
+.text{
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    text-align: center;
+}.wrapper{
     outline: 2px solid red;
 }
 
