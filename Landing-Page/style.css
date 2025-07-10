@@ -68,4 +68,7 @@ p{
     display: flex;
     flex-direction: column;
 }
+.wrapper{
+    outline: 2px solid red;
+}
 
