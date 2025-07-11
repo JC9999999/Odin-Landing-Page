@@ -30,7 +30,6 @@ li{
 .hero-subtext{
     font-size: 18px;
     padding: 0 100px;
-    position: relative;
 }
 .right{
     font-size: 18px;
@@ -57,9 +56,13 @@ img{
     height: auto;
 }
 .image{
-    float: right;
+    float: right; /*Moves image to the right so that it floats next to other content*/
     padding-right: 100px;
     margin-top: 75px;
+}
+img{
+    width: 100px;
+    height: 100px;
 }
 .hero-container{
     display: flexbox;
@@ -71,18 +74,35 @@ p{
 .middle-container{
     display: flex;
     justify-content: center;
-    justify-content: space-between;
-    text-align: center;
+    text-align: center; /*Centers the text*/
     align-items: center;
-    gap: 32px;
+    gap: 52px; /*Gap acts similiar to justify-content:space-between*/
 }
 .text{
     align-items: center;
-    justify-content: center;
 }
 .title{
-    text-align: center;
+    text-align: center;  /*Centers the text*/
+    margin-bottom: 32px; /*Moves things below the title down 32px*/
 }.wrapper{
     outline: 2px solid red;
+    max-width: 200px; /*Makes the reusable wrapper image-text card's max width to 200px*/
 }
+.bottom-container{
+    outline: 2px solid gray;
+    margin-top: 32px;
+    text-align: center;
+}
+.quote-of-thor{
+    margin-bottom: 52px;
+}
+.Bold{
+    font-weight: 900;
+}
+.action{
+    display: flex;
+    flex-direction: column;
+}
+
+
 
